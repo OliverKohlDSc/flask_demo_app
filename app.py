@@ -30,7 +30,15 @@
 # https://learn.microsoft.com/en-us/azure/app-service/
 # https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli
 
+
+# AZ commands:
+# az account list-locations | grep -i Germany
+# az webapp up --runtime PYTHON:3.10 --location germanywestcentral --name faculty73-webapp-demo1
+
+
 # https://<app-name>.azurewebsites.net
+
+# https://faculty73-webapp-demo1.azurewebsites.net/
 
 import flask
 
